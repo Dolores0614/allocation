@@ -3,7 +3,7 @@ pandas
 matplotlib
 jupyter
 datetime
-pypfopt
+git+https://github.com/robertmartin8/PyPortfolioOpt.git
 nltk
 cvxpy
 bs4
