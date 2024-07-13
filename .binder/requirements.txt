@@ -9,3 +9,4 @@ cvxpy
 bs4
 requests
 flask
+streamlit
