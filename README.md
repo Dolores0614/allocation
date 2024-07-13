@@ -31,12 +31,13 @@ This project is a web application built using Flask and Streamlit that helps use
 - `requirements.txt`: Lists all the required Python libraries.
 - `Procfile`: Heroku deployment file defining how to start the application.
 - `nltk.txt`: Lists the NLTK datasets needed for the application.
+```
 
 ## Example
 
 In the application, try the following example stock tickers:
 
-```txt
+`txt
 AAPL, GOOGL, MSFT, AMZN, FB
 ```
 
