@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+jupyter
+datetime
+pypfopt
+nltk
+cvxpy
+bs4
+requests
