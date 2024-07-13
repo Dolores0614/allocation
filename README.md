@@ -1,5 +1,5 @@
 
-```markdown
+
 # Portfolio Optimization Web Application
 
 ## Project Overview
@@ -23,7 +23,6 @@ This project is a web application built using Flask and Streamlit that helps use
    - Calculates and displays expected annual return, annual volatility, and Sharpe ratio for the portfolio.
    - Provides discrete allocation based on the user's investment amount.
 
-
 ## Project Structure
 
 - `app.py`: The main application file containing the Streamlit user interface and logic for calling the optimization functions.
@@ -31,7 +30,7 @@ This project is a web application built using Flask and Streamlit that helps use
 - `requirements.txt`: Lists all the required Python libraries.
 - `Procfile`: Heroku deployment file defining how to start the application.
 - `nltk.txt`: Lists the NLTK datasets needed for the application.
-```
+
 
 ## Example
 
