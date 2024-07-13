@@ -8,3 +8,4 @@ nltk
 cvxpy
 bs4
 requests
+flask
