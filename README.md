@@ -29,7 +29,6 @@ This project is a web application built using Flask and Streamlit that helps use
 - `function.py`: Contains functions for data fetching, sentiment analysis, and portfolio optimization.
 - `requirements.txt`: Lists all the required Python libraries.
 - `Procfile`: Heroku deployment file defining how to start the application.
-- `nltk.txt`: Lists the NLTK datasets needed for the application.
 
 
 ## Example
