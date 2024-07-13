@@ -140,4 +140,40 @@ def optimize_portfolio(tickers, investment_amount, risk_preference):
     performance = ef.portfolio_performance(verbose=True)
     
     return cleaned_weights, allocation, leftover, performance
+import function
+import ipywidgets as widgets
+from IPython.display import display
 
+def main(tickers, investment_amount, risk_preference_input):
+    tickers = tickers.split(',')
+    tickers = [ticker.strip() for ticker in tickers]  # Remove any extra whitespace
+    investment_amount = float(investment_amount)
+
+    risk_preference = 'neutral'
+    if risk_preference_input == 1:
+        risk_preference = 'averse'
+    elif risk_preference_input == 3:
+        risk_preference = 'like'
+
+    try:
+        weights, allocation, leftover, performance = function.optimize_portfolio(tickers, investment_amount, risk_preference)
+
+        print("\nOptimal Weights:")
+        for ticker, weight in weights.items():
+            print(f"The cleaned weight for {ticker} is: {weight:.4f}")
+
+        print("\nInvestment Allocation:")
+        if allocation:
+            for ticker, amount in allocation.items():
+                print(f"The allocation for {ticker} is: {amount:.0f} stocks")
+        else:
+            print("No allocation was made.")
+
+        print(f"\nFunds Remaining: ${leftover:.2f}")
+
+        print("\nPortfolio Performance:")
+        print(f"Expected annual return: {performance[0]:.2f}")
+        print(f"Annual volatility: {performance[1]:.2f}")
+        print(f"Sharpe ratio: {performance[2]:.2f}")
+    except ValueError as e:
+        print(f"Error: {e}")
