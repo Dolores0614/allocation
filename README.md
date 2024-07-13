@@ -37,9 +37,7 @@ This project is a web application built using Flask and Streamlit that helps use
 
 In the application, try the following example stock tickers:
 
-`txt
 AAPL, GOOGL, MSFT, AMZN, FB
-
 
 Enter an investment amount (e.g., 10000), select a risk preference (e.g., Risk Neutral), and click the "Run Optimization" button to see the results.
 
