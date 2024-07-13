@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+jupyter
+datetime
+git+https://github.com/robertmartin8/PyPortfolioOpt.git
+nltk
+cvxpy
+bs4
+requests
+flask
+streamlit
+yfinance
